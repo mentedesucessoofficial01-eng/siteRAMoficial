@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAM Night Edition: peso, presença e proposta</title>
+  <meta name="description" content="A RAM Night Edition em uma experiência guiada pelo scroll: grade totalmente preta, vitrine com troca de cor e proposta direto pelo WhatsApp.">
+  <link rel="canonical" href="https://exemplo.com.br/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="RAM Night Edition: peso, presença e proposta">
+  <meta property="og:description" content="Grade totalmente preta, vitrine com troca de cor e proposta direto pelo WhatsApp.">
+  <meta property="og:url" content="https://exemplo.com.br/">
+  <meta property="og:image" content="https://exemplo.com.br/img/veiculos/night-frontal-noturno-1600.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0b'/%3E%3Crect x='6' y='10' width='20' height='3' fill='%23ecebe6'/%3E%3Crect x='6' y='15' width='20' height='3' fill='%23ecebe6'/%3E%3Crect x='6' y='20' width='20' height='3' fill='%23ff6b1a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Big+Shoulders+Display:wght@600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="data/catalog.json" as="fetch" crossorigin>
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Loader: só aparece quando existe sequência de frames -->
+  <div id="loader" hidden>
+    <span class="loader-brand">Night Edition</span>
+    <span class="loader-track"><span id="loader-bar"></span></span>
+    <span id="loader-percent">0%</span>
+  </div>
+
+  <header class="site-header">
+    <p class="demo-strip" hidden><span class="demo-long" data-bind="demo-notice"></span><span class="demo-short">Portfólio · imagens ilustrativas</span></p>
+    <div class="header-bar wrap">
+      <a class="brand" href="index.html" aria-label="Página inicial">
+        <span class="brand-mark" data-bind="op-short"></span>
+        <span class="brand-name" data-bind="op-name"></span>
+      </a>
+      <nav id="site-nav" class="site-nav" aria-label="Principal">
+        <ul>
+          <li><a href="#night">Night Edition</a></li>
+          <li><a href="#vitrine">Vitrine</a></li>
+          <li><a href="#proposta">Proposta</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--accent btn--sm header-cta" data-wa-general="cabecalho" href="#proposta">Falar com consultor</a>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span class="menu-lines" aria-hidden="true"></span><span class="sr-only">Menu</span></button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <noscript><p class="wrap noscript">Este site precisa de JavaScript para a vitrine e as animações.</p></noscript>
+
+    <!-- Abertura -->
+    <section class="hero hero-standalone" id="inicio">
+      <div class="hero-inner wrap">
+        <p class="section-label eyebrow">001 / RAM Night Edition</p>
+        <h1 class="hero-heading">
+          <span data-line>Peso,</span>
+          <span data-line>presença</span>
+          <span data-line class="hero-accent">e proposta.</span>
+        </h1>
+        <div class="hero-foot">
+          <div>
+            <p class="hero-tagline">Uma picape que dispensa apresentação, mostrada do jeito que merece. Role para ver de perto e fale com um consultor quando quiser.</p>
+            <div class="hero-ctas">
+              <a class="btn btn--accent btn--lg" data-wa-general="topo-headline" href="#proposta">Falar com consultor</a>
+              <a class="btn btn--ghost btn--lg" href="#night">Ver a Night Edition</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#night" aria-label="Rolar até a Night Edition"><span>Role</span><span class="scroll-cue-line" aria-hidden="true"></span></a>
+    </section>
+
+    <!-- Sequência Night Edition guiada pelo scroll -->
+    <section id="night" class="film" aria-label="Night Edition">
+      <div class="film-stage">
+        <div class="canvas-wrap">
+          <canvas id="canvas" aria-hidden="true"></canvas>
+          <div class="film-fallback" aria-hidden="true">
+            <img class="photo" src="img/veiculos/night-frontal-noturno-1600.webp" srcset="img/veiculos/night-frontal-noturno-800.webp 800w, img/veiculos/night-frontal-noturno-1600.webp 1600w" sizes="100vw" alt="" decoding="async">
+          </div>
+        </div>
+        <div id="dark-overlay" class="dark-overlay"></div>
+        <div class="marquee-wrap" data-enter="57" data-leave="86" data-scroll-speed="-32" aria-hidden="true">
+          <div class="marquee-text">Night Edition · Grade totalmente preta · Night Edition · Grade totalmente preta ·</div>
+        </div>
+      </div>
+
+      <section class="scroll-section section-content align-left" data-enter="5" data-leave="21" data-animation="slide-left">
+        <div class="section-inner">
+          <span class="section-label eyebrow">002 / Grade</span>
+          <h2 class="section-heading">A grade que apaga a luz.</h2>
+          <p class="section-body">Inteira preta, sem moldura cromada. A frente vira um bloco só, e você reconhece a picape a um quarteirão de distância.</p>
+        </div>
+      </section>
+
+      <section class="scroll-section section-content align-right" data-enter="23" data-leave="37" data-animation="scale-up">
+        <div class="section-inner">
+          <span class="section-label eyebrow">002 / Acabamento</span>
+          <h2 class="section-heading">Nada brilha sem motivo.</h2>
+          <p class="section-body">Emblemas e rodas no mesmo tom da grade. A luz que sobra é a do farol, e é para ela que o olhar vai.</p>
+        </div>
+      </section>
+
+      <section class="scroll-section section-stats" data-enter="40" data-leave="54" data-animation="stagger-up">
+        <p class="section-label eyebrow">Do primeiro olhar ao consultor</p>
+        <div class="stats-grid stats-grid--3">
+          <div class="stat">
+            <span class="stat-figure"><span class="stat-number" data-source="versions" data-decimals="0">0</span><span class="stat-suffix">versões</span></span>
+            <span class="stat-label">Lado a lado na vitrine</span>
+          </div>
+          <div class="stat">
+            <span class="stat-figure"><span class="stat-number" data-source="colors" data-decimals="0">0</span><span class="stat-suffix">cores</span></span>
+            <span class="stat-label">Para comparar com um toque</span>
+          </div>
+          <div class="stat">
+            <span class="stat-figure"><span class="stat-number" data-value="1" data-decimals="0">1</span><span class="stat-suffix">toque</span></span>
+            <span class="stat-label">Até o WhatsApp do consultor</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="scroll-section section-content align-left" data-enter="58" data-leave="71" data-animation="clip-reveal">
+        <div class="section-inner">
+          <span class="section-label eyebrow">002 / Presença</span>
+          <h2 class="section-heading">Preto sobre preto.</h2>
+          <p class="section-body">Quando tudo combina, o desenho aparece. A carroceria escura deixa a picape maior do que ela já é.</p>
+        </div>
+      </section>
+
+      <section class="scroll-section section-content align-right" data-enter="73" data-leave="85" data-animation="rotate-in">
+        <div class="section-inner">
+          <span class="section-label eyebrow">002 / Escolha</span>
+          <h2 class="section-heading">Veja antes de perguntar.</h2>
+          <p class="section-body">Na vitrine você troca a cor, vê a picape em movimento e chama o consultor já sabendo o que quer.</p>
+        </div>
+      </section>
+
+      <section class="scroll-section section-content align-left section-cta" data-enter="88" data-leave="100" data-animation="fade-up" data-persist="true">
+        <div class="section-inner">
+          <span class="section-label eyebrow">002 / Próximo passo</span>
+          <h2 class="section-heading">Gostou do que viu?</h2>
+          <p class="section-body"><span data-featured-name>Night Edition</span>: o consultor responde com preço, cor e prazo.</p>
+          <div class="cta-row">
+            <a class="btn btn--accent btn--lg" data-featured-wa href="#proposta" target="_blank" rel="noopener">Quero saber o preço</a>
+            <a class="btn btn--ghost btn--lg" href="#vitrine">Ver na vitrine</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Vitrine: setas laterais, cores e vídeo -->
+    <section id="vitrine" class="sec showroom" aria-labelledby="vitrine-titulo">
+      <div class="wrap">
+        <div class="sec-head" data-reveal="fade-up">
+          <p class="eyebrow" data-reveal-item>003 / Vitrine</p>
+          <h2 class="h-section" id="vitrine-titulo" data-reveal-item>Escolha o modelo. Depois, a cor.</h2>
+          <p class="lede" data-reveal-item>Passe pelas setas, troque a cor e aperte “Ver em movimento”.</p>
+        </div>
+        <div class="sr" data-showroom></div>
+      </div>
+    </section>
+
+    <!-- Destaque Night Edition -->
+    <section id="night-dossier" class="sec dossier" data-reveal="clip-reveal" aria-label="Night Edition em destaque">
+      <div class="wrap" data-night-dossier></div>
+    </section>
+
+    <!-- Proposta -->
+    <section id="proposta" class="sec proposta" data-reveal="fade-up">
+      <div class="proposta-bg" aria-hidden="true">
+        <video src="img/video/fundo-abstrato.mp4" poster="img/video/fundo-abstrato.webp" autoplay muted loop playsinline preload="none"></video>
+      </div>
+      <div class="wrap lead-layout">
+        <div class="lead-intro">
+          <p class="eyebrow" data-reveal-item>005 / Proposta</p>
+          <h2 class="h-section" data-reveal-item>Proposta por escrito, sem rodeio.</h2>
+          <ol class="steps" data-reveal-item>
+            <li><strong>Você diz o que procura.</strong> Três campos e pronto.</li>
+            <li><strong>O WhatsApp abre com tudo escrito.</strong> É só enviar.</li>
+            <li><strong>O consultor responde.</strong> Com preço, cor e prazo.</li>
+          </ol>
+        </div>
+        <div id="lead-home"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <p class="brand"><span class="brand-mark" data-bind="op-short"></span><span class="brand-name" data-bind="op-name"></span></p>
+      </div>
+      <nav aria-label="Navegação do rodapé">
+        <p class="footer-h">Navegar</p>
+        <ul>
+          <li><a href="index.html#night">Night Edition</a></li>
+          <li><a href="index.html#vitrine">Vitrine</a></li>
+          <li><a href="index.html#proposta">Proposta</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-h">Atendimento</p>
+        <ul>
+          <li><a data-wa-general="rodape" href="index.html#proposta">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-h">Legal</p>
+        <ul>
+          <li><a href="privacidade.html">Aviso de privacidade</a></li>
+          <li><a href="termos.html">Termos de uso</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p data-bind="op-disclaimer"></p>
+      <p>© <span data-bind="year"></span> <span data-bind="op-name"></span>. Imagens ilustrativas.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script type="module" src="js/home.js"></script>
+</body>
+</html>

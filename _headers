@@ -1,0 +1,18 @@
+# Cabeçalhos da Cloudflare Pages
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(self)
+
+# Fotos, vídeos e frames mudam de nome quando mudam: cache longo
+/img/*
+  Cache-Control: public, max-age=2592000
+/frames/*
+  Cache-Control: public, max-age=2592000
+
+# Dados e manifest sempre atualizados
+/data/*
+  Cache-Control: no-cache
+/frames/manifest.json
+  Cache-Control: no-cache

@@ -1,0 +1,1002 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-10-24",
+    "demo": true,
+    "demoNotice": "Projeto de portfólio · imagens ilustrativas · não é o site oficial da RAM nem de concessionária.",
+    "priceModes": {
+      "consulte": "Sem preço publicado: o card mostra \"Consulte condições\".",
+      "demonstrativo": "Valor exibido com o aviso \"Preço demonstrativo — sujeito a atualização\".",
+      "verificado": "Valor real com fonte e data da conferência (source, checkedAt)."
+    },
+    "publishRule": "Versões sem nenhuma foto não aparecem no site. Para forçar, use \"published\": true; para esconder, \"published\": false."
+  },
+  "operation": {
+    "name": "Operação Demonstrativa",
+    "shortName": "DEMO",
+    "legalName": null,
+    "cnpj": null,
+    "address": null,
+    "email": null,
+    "phone": null,
+    "whatsapp": "5545991075234",
+    "hours": null,
+    "siteUrl": "https://exemplo.com.br",
+    "privacyController": null,
+    "dpoEmail": null,
+    "brandDisclaimer": "RAM e Night Edition são marcas de seus respectivos titulares. Este é um projeto de portfólio, sem vínculo com o fabricante ou com concessionárias.",
+    "whatsappMessage": "Olá! Quero tirar o meu projeto do papel. Como funciona para criarmos o meu site?"
+  },
+  "featuredVehicle": "ram-3500-night-edition",
+  "defaultCategory": "pf",
+  "leads": {
+    "endpoint": null,
+    "privacyNotice": "Usamos seus dados apenas para responder a esta solicitação e preparar a proposta. Não vendemos nem compartilhamos com terceiros para publicidade."
+  },
+  "buyerCategories": [
+    {
+      "id": "pf",
+      "label": "Pessoa física",
+      "short": "PF",
+      "description": "Compra no varejo, com preço à vista ou financiamento."
+    },
+    {
+      "id": "cnpj",
+      "label": "CNPJ e microempresário",
+      "short": "CNPJ",
+      "description": "Venda direta para empresas, sujeita a regras de elegibilidade."
+    },
+    {
+      "id": "rural",
+      "label": "Produtor rural",
+      "short": "Rural",
+      "description": "Condições para quem comprova atividade rural."
+    }
+  ],
+  "offerTypes": [
+    {
+      "id": "preco-a-vista",
+      "label": "Preço à vista"
+    },
+    {
+      "id": "taxa-promocional",
+      "label": "Taxa promocional"
+    },
+    {
+      "id": "venda-direta",
+      "label": "Venda direta"
+    }
+  ],
+  "campaigns": [],
+  "models": [
+    {
+      "id": "rampage",
+      "name": "Rampage",
+      "segment": "Picape intermediária",
+      "tagline": "Monobloco, porte urbano e cabine para cinco."
+    },
+    {
+      "id": "dakota",
+      "name": "Dakota",
+      "segment": "Picape média",
+      "tagline": "Chassi sobre longarinas para quem trabalha na terra e na estrada."
+    },
+    {
+      "id": "ram-1500",
+      "name": "RAM 1500",
+      "segment": "Picape grande",
+      "tagline": "Tamanho full-size com rodar de SUV."
+    },
+    {
+      "id": "ram-2500",
+      "name": "RAM 2500",
+      "segment": "Picape pesada",
+      "tagline": "Diesel de grande cilindrada para reboque e carga."
+    },
+    {
+      "id": "ram-3500",
+      "name": "RAM 3500",
+      "segment": "Picape pesada",
+      "tagline": "O topo da linha em capacidade."
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "ram-3500-night-edition",
+      "model": "ram-3500",
+      "version": "Laramie Night Edition",
+      "edition": "night",
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "6.7 turbodiesel seis cilindros",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "encomenda",
+      "deliveryNote": "Prazo de entrega informado na proposta.",
+      "verified": false,
+      "summary": "A maior picape da linha com a grade, os emblemas e as rodas em preto. Mesma força, outra presença.",
+      "highlights": [
+        "Grade frontal totalmente preta",
+        "Emblemas e rodas escurecidos",
+        "Diesel de grande cilindrada"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        },
+        {
+          "label": "Rodas",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [
+        {
+          "src": "img/veiculos/3500-night-traseira-1448.webp",
+          "srcset": "img/veiculos/3500-night-traseira-800.webp 800w, img/veiculos/3500-night-traseira-1448.webp 1448w",
+          "shot": "Traseira",
+          "alt": "Traseira da RAM 3500 Laramie Night Edition com emblemas escurecidos",
+          "brief": "",
+          "illustrative": true
+        },
+        {
+          "src": "img/veiculos/interior-laramie-1600.webp",
+          "srcset": "img/veiculos/interior-laramie-800.webp 800w, img/veiculos/interior-laramie-1600.webp 1600w",
+          "shot": "Interior",
+          "alt": "Painel e bancos em couro do acabamento Laramie",
+          "brief": "",
+          "illustrative": true,
+          "video": {
+            "src": "img/video/interior.mp4",
+            "poster": "img/video/interior.webp"
+          }
+        }
+      ],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [
+        {
+          "id": "preto",
+          "name": "Preto",
+          "hex": "#0b0b0c",
+          "images": [
+            {
+              "src": "img/veiculos/night-estudio-preto-1448.webp",
+              "srcset": "img/veiculos/night-estudio-preto-800.webp 800w, img/veiculos/night-estudio-preto-1448.webp 1448w",
+              "shot": "Estúdio 3/4",
+              "alt": "RAM 3500 Laramie Night Edition preta em estúdio, vista frontal três quartos",
+              "brief": "",
+              "illustrative": true
+            },
+            {
+              "src": "img/veiculos/night-frontal-noturno-1600.webp",
+              "srcset": "img/veiculos/night-frontal-noturno-800.webp 800w, img/veiculos/night-frontal-noturno-1600.webp 1600w",
+              "shot": "Frontal 3/4 noturno",
+              "alt": "RAM 3500 Laramie Night Edition preta em garagem de concreto à noite",
+              "brief": "",
+              "illustrative": true
+            },
+            {
+              "src": "img/veiculos/night-grade-1600.webp",
+              "srcset": "img/veiculos/night-grade-800.webp 800w, img/veiculos/night-grade-1600.webp 1600w",
+              "shot": "Grade frontal",
+              "alt": "Grade frontal totalmente preta da RAM 3500 Laramie Night Edition",
+              "brief": "",
+              "illustrative": true,
+              "video": {
+                "src": "img/video/grade-close.mp4",
+                "poster": "img/video/grade-close.webp"
+              }
+            }
+          ],
+          "video": {
+            "src": "img/video/estudio-preto.mp4",
+            "poster": "img/video/estudio-preto.webp"
+          }
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "ram-3500-laramie",
+      "model": "ram-3500",
+      "version": "Laramie",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "6.7 turbodiesel seis cilindros",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "sob-consulta",
+      "deliveryNote": null,
+      "verified": false,
+      "summary": "A RAM 3500 com acabamento Laramie, grade cromada e cor sólida para quem quer brilho na estrada.",
+      "highlights": [
+        "Grade e emblemas cromados",
+        "Maior capacidade da linha",
+        "Diesel de grande cilindrada"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de carga",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [
+        {
+          "id": "branco",
+          "name": "Branco",
+          "hex": "#efefec",
+          "images": [
+            {
+              "src": "img/veiculos/3500-estudio-branco-1448.webp",
+              "srcset": "img/veiculos/3500-estudio-branco-800.webp 800w, img/veiculos/3500-estudio-branco-1448.webp 1448w",
+              "shot": "Estúdio 3/4",
+              "alt": "RAM 3500 Laramie branca em estúdio, vista frontal três quartos",
+              "brief": "",
+              "illustrative": true
+            }
+          ],
+          "video": {
+            "src": "img/video/estudio-branco.mp4",
+            "poster": "img/video/estudio-branco.webp"
+          }
+        },
+        {
+          "id": "vermelho",
+          "name": "Vermelho",
+          "hex": "#b5141c",
+          "images": [
+            {
+              "src": "img/veiculos/3500-estudio-vermelho-1448.webp",
+              "srcset": "img/veiculos/3500-estudio-vermelho-800.webp 800w, img/veiculos/3500-estudio-vermelho-1448.webp 1448w",
+              "shot": "Estúdio 3/4",
+              "alt": "RAM 3500 Laramie vermelha em estúdio, vista frontal três quartos",
+              "brief": "",
+              "illustrative": true
+            }
+          ],
+          "video": {
+            "src": "img/video/estudio-vermelho.mp4",
+            "poster": "img/video/estudio-vermelho.webp"
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "img/veiculos/interior-laramie-1600.webp",
+          "srcset": "img/veiculos/interior-laramie-800.webp 800w, img/veiculos/interior-laramie-1600.webp 1600w",
+          "shot": "Interior",
+          "alt": "Painel e bancos em couro do acabamento Laramie",
+          "brief": "",
+          "illustrative": true,
+          "video": {
+            "src": "img/video/interior.mp4",
+            "poster": "img/video/interior.webp"
+          }
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "ram-1500-laramie",
+      "model": "ram-1500",
+      "version": "Laramie",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "3.0 biturbo seis cilindros",
+      "fuel": "Gasolina",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "pronta-entrega",
+      "deliveryNote": "Estoque limitado às cores informadas pelo consultor.",
+      "verified": false,
+      "summary": "A full-size com rodar de SUV: cabine ampla, acabamento Laramie e presença de sobra.",
+      "highlights": [
+        "Acabamento Laramie",
+        "Cabine ampla para cinco",
+        "Motor seis cilindros"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        },
+        {
+          "label": "Consumo (Inmetro)",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [
+        {
+          "id": "cinza",
+          "name": "Cinza",
+          "hex": "#5b5e62",
+          "images": [
+            {
+              "src": "img/veiculos/1500-laramie-estudio-cinza-1448.webp",
+              "srcset": "img/veiculos/1500-laramie-estudio-cinza-800.webp 800w, img/veiculos/1500-laramie-estudio-cinza-1448.webp 1448w",
+              "shot": "Estúdio 3/4",
+              "alt": "RAM 1500 Laramie cinza em estúdio, vista frontal três quartos",
+              "brief": "",
+              "illustrative": true
+            }
+          ]
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "rampage-rebel",
+      "model": "rampage",
+      "version": "Rebel",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "2.2 turbodiesel",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "pronta-entrega",
+      "deliveryNote": "Unidades em estoque nas cores sólidas. Confirmar com o consultor.",
+      "verified": false,
+      "summary": "A Rampage com acerto para fora do asfalto e visual mais robusto.",
+      "highlights": [
+        "Visual Rebel",
+        "Tração 4x4",
+        "Motor diesel"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de carga",
+          "value": null
+        },
+        {
+          "label": "Consumo (Inmetro)",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [
+        {
+          "id": "preto",
+          "name": "Preto",
+          "hex": "#0b0b0c",
+          "images": [
+            {
+              "src": "img/veiculos/rampage-rebel-estudio-preto-1448.webp",
+              "srcset": "img/veiculos/rampage-rebel-estudio-preto-800.webp 800w, img/veiculos/rampage-rebel-estudio-preto-1448.webp 1448w",
+              "shot": "Estúdio 3/4",
+              "alt": "Rampage Rebel preta em estúdio, vista frontal três quartos",
+              "brief": "",
+              "illustrative": true
+            }
+          ]
+        }
+      ],
+      "published": false
+    },
+    {
+      "id": "rampage-laramie",
+      "model": "rampage",
+      "version": "Laramie",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "2.2 turbodiesel",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "sob-consulta",
+      "deliveryNote": null,
+      "verified": false,
+      "summary": "A Rampage de acabamento mais refinado.",
+      "highlights": [
+        "Acabamento Laramie",
+        "Tração 4x4",
+        "Motor diesel"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de carga",
+          "value": null
+        },
+        {
+          "label": "Consumo (Inmetro)",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [],
+      "published": false
+    },
+    {
+      "id": "rampage-rt",
+      "model": "rampage",
+      "version": "R/T",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "2.0 turbo",
+      "fuel": "Gasolina",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "sob-consulta",
+      "deliveryNote": null,
+      "verified": false,
+      "summary": "A Rampage voltada a desempenho, com motor a gasolina.",
+      "highlights": [
+        "Motor a gasolina",
+        "Tração 4x4",
+        "Visual esportivo"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "0 a 100 km/h",
+          "value": null
+        },
+        {
+          "label": "Consumo (Inmetro)",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [
+        {
+          "id": "vermelho",
+          "name": "Vermelho",
+          "hex": "#b5141c",
+          "images": [
+            {
+              "src": "img/veiculos/rampage-rt-estudio-vermelho-1448.webp",
+              "srcset": "img/veiculos/rampage-rt-estudio-vermelho-800.webp 800w, img/veiculos/rampage-rt-estudio-vermelho-1448.webp 1448w",
+              "shot": "Estúdio 3/4",
+              "alt": "Rampage R/T vermelha em estúdio, vista frontal três quartos",
+              "brief": "",
+              "illustrative": true
+            }
+          ]
+        }
+      ],
+      "published": false
+    },
+    {
+      "id": "dakota-warlock",
+      "model": "dakota",
+      "version": "Warlock",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "2.2 turbodiesel",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "pronta-entrega",
+      "deliveryNote": "Disponibilidade varia por unidade.",
+      "verified": false,
+      "summary": "A Dakota com visual escurecido e foco no uso misto.",
+      "highlights": [
+        "Chassi sobre longarinas",
+        "Tração 4x4",
+        "Motor diesel"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de carga",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [
+        {
+          "id": "branco",
+          "name": "Branco",
+          "hex": "#efefec",
+          "images": [
+            {
+              "src": "img/veiculos/dakota-warlock-estudio-branco-1448.webp",
+              "srcset": "img/veiculos/dakota-warlock-estudio-branco-800.webp 800w, img/veiculos/dakota-warlock-estudio-branco-1448.webp 1448w",
+              "shot": "Estúdio 3/4",
+              "alt": "Dakota Warlock branca em estúdio, vista frontal três quartos",
+              "brief": "",
+              "illustrative": true
+            }
+          ]
+        }
+      ],
+      "published": false
+    },
+    {
+      "id": "dakota-laramie",
+      "model": "dakota",
+      "version": "Laramie",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2027,
+      "engine": "2.2 turbodiesel",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "sob-consulta",
+      "deliveryNote": null,
+      "verified": false,
+      "summary": "A Dakota de acabamento superior.",
+      "highlights": [
+        "Acabamento Laramie",
+        "Chassi sobre longarinas",
+        "Tração 4x4"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de carga",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [],
+      "published": false
+    },
+    {
+      "id": "ram-1500-rebel",
+      "model": "ram-1500",
+      "version": "Rebel",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "3.0 biturbo seis cilindros",
+      "fuel": "Gasolina",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "sob-consulta",
+      "deliveryNote": null,
+      "verified": false,
+      "summary": "A RAM 1500 com pneus de uso misto e visual aventureiro.",
+      "highlights": [
+        "Visual Rebel",
+        "Motor seis cilindros",
+        "Tração 4x4"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        },
+        {
+          "label": "Consumo (Inmetro)",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [],
+      "published": false
+    },
+    {
+      "id": "ram-2500-laramie",
+      "model": "ram-2500",
+      "version": "Laramie",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "6.7 turbodiesel seis cilindros",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "sob-consulta",
+      "deliveryNote": null,
+      "verified": false,
+      "summary": "A picape pesada para reboque e carga, com acabamento Laramie.",
+      "highlights": [
+        "Diesel de grande cilindrada",
+        "Tração 4x4",
+        "Acabamento Laramie"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de carga",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [],
+      "published": false
+    },
+    {
+      "id": "ram-2500-night-edition",
+      "model": "ram-2500",
+      "version": "Laramie Night Edition",
+      "edition": "night",
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "6.7 turbodiesel seis cilindros",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "pronta-entrega",
+      "deliveryNote": "Quantidade por unidade a confirmar com o consultor.",
+      "verified": false,
+      "summary": "A RAM 2500 com a grade frontal totalmente preta e acabamentos escurecidos. A mesma picape pesada, com outra presença.",
+      "highlights": [
+        "Grade frontal totalmente preta",
+        "Emblemas e detalhes escurecidos",
+        "Diesel de grande cilindrada"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        },
+        {
+          "label": "Rodas",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [
+        {
+          "src": "img/veiculos/interior-laramie-1600.webp",
+          "srcset": "img/veiculos/interior-laramie-800.webp 800w, img/veiculos/interior-laramie-1600.webp 1600w",
+          "shot": "Interior",
+          "alt": "Painel e bancos em couro do acabamento Laramie",
+          "brief": "",
+          "illustrative": true,
+          "video": {
+            "src": "img/video/interior.mp4",
+            "poster": "img/video/interior.webp"
+          }
+        }
+      ],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [
+        {
+          "id": "preto",
+          "name": "Preto",
+          "hex": "#0b0b0c",
+          "images": [
+            {
+              "src": "img/veiculos/night-estudio-preto-1448.webp",
+              "srcset": "img/veiculos/night-estudio-preto-800.webp 800w, img/veiculos/night-estudio-preto-1448.webp 1448w",
+              "shot": "Estúdio 3/4",
+              "alt": "RAM 2500 Laramie Night Edition preta em estúdio, vista frontal três quartos",
+              "brief": "",
+              "illustrative": true
+            },
+            {
+              "src": "img/veiculos/night-frontal-noturno-1600.webp",
+              "srcset": "img/veiculos/night-frontal-noturno-800.webp 800w, img/veiculos/night-frontal-noturno-1600.webp 1600w",
+              "shot": "Frontal 3/4 noturno",
+              "alt": "RAM 2500 Laramie Night Edition preta em garagem de concreto à noite",
+              "brief": "",
+              "illustrative": true
+            },
+            {
+              "src": "img/veiculos/night-grade-1600.webp",
+              "srcset": "img/veiculos/night-grade-800.webp 800w, img/veiculos/night-grade-1600.webp 1600w",
+              "shot": "Grade frontal",
+              "alt": "Grade frontal totalmente preta da RAM 2500 Laramie Night Edition",
+              "brief": "",
+              "illustrative": true,
+              "video": {
+                "src": "img/video/grade-close.mp4",
+                "poster": "img/video/grade-close.webp"
+              }
+            }
+          ],
+          "video": {
+            "src": "img/video/estudio-preto.mp4",
+            "poster": "img/video/estudio-preto.webp"
+          }
+        }
+      ],
+      "published": false
+    },
+    {
+      "id": "ram-3500-limited-longhorn",
+      "model": "ram-3500",
+      "version": "Limited Longhorn",
+      "edition": null,
+      "yearManufacture": 2026,
+      "yearModel": 2026,
+      "engine": "6.7 turbodiesel seis cilindros",
+      "fuel": "Diesel",
+      "transmission": "Automática",
+      "traction": "4x4",
+      "availability": "sob-consulta",
+      "deliveryNote": null,
+      "verified": false,
+      "summary": "A RAM 3500 com o acabamento mais luxuoso da linha.",
+      "highlights": [
+        "Acabamento Limited Longhorn",
+        "Maior capacidade da linha",
+        "Diesel de grande cilindrada"
+      ],
+      "specs": [
+        {
+          "label": "Potência",
+          "value": null
+        },
+        {
+          "label": "Torque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de reboque",
+          "value": null
+        },
+        {
+          "label": "Capacidade de carga",
+          "value": null
+        }
+      ],
+      "equipment": [],
+      "images": [],
+      "price": {
+        "mode": "consulte",
+        "value": null,
+        "source": null,
+        "checkedAt": null
+      },
+      "colors": [],
+      "published": false
+    }
+  ],
+  "offers": [],
+  "dealers": [
+    {
+      "id": "unidade-sao-paulo",
+      "name": "Unidade demonstrativa São Paulo",
+      "city": "São Paulo",
+      "uf": "SP",
+      "region": "Sudeste",
+      "address": null,
+      "cep": null,
+      "phone": null,
+      "whatsapp": null,
+      "hours": null,
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "coordsPrecision": "cidade",
+      "vehicles": "all"
+    },
+    {
+      "id": "unidade-ribeirao-preto",
+      "name": "Unidade demonstrativa Ribeirão Preto",
+      "city": "Ribeirão Preto",
+      "uf": "SP",
+      "region": "Sudeste",
+      "address": null,
+      "cep": null,
+      "phone": null,
+      "whatsapp": null,
+      "hours": null,
+      "lat": -21.1775,
+      "lng": -47.8103,
+      "coordsPrecision": "cidade",
+      "vehicles": [
+        "dakota-warlock",
+        "dakota-laramie",
+        "ram-2500-laramie",
+        "ram-3500-limited-longhorn"
+      ]
+    },
+    {
+      "id": "unidade-curitiba",
+      "name": "Unidade demonstrativa Curitiba",
+      "city": "Curitiba",
+      "uf": "PR",
+      "region": "Sul",
+      "address": null,
+      "cep": null,
+      "phone": null,
+      "whatsapp": null,
+      "hours": null,
+      "lat": -25.4284,
+      "lng": -49.2733,
+      "coordsPrecision": "cidade",
+      "vehicles": "all"
+    },
+    {
+      "id": "unidade-goiania",
+      "name": "Unidade demonstrativa Goiânia",
+      "city": "Goiânia",
+      "uf": "GO",
+      "region": "Centro-Oeste",
+      "address": null,
+      "cep": null,
+      "phone": null,
+      "whatsapp": null,
+      "hours": null,
+      "lat": -16.6869,
+      "lng": -49.2648,
+      "coordsPrecision": "cidade",
+      "vehicles": [
+        "dakota-warlock",
+        "dakota-laramie",
+        "ram-1500-laramie",
+        "ram-2500-laramie",
+        "ram-2500-night-edition",
+        "ram-3500-limited-longhorn"
+      ]
+    }
+  ]
+}

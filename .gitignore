@@ -1,0 +1,10 @@
+# Instruções da skill usadas para gerar o site (não fazem parte do site)
+video-to-website/
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+__pycache__/
+*.pyc

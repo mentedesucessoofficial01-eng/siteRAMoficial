@@ -1,0 +1,8 @@
+{
+  "count": 192,
+  "dir": "frames",
+  "pattern": "frame_%04d.webp",
+  "width": 848,
+  "source": ". Sequ\u00eancia principal do site.mp4",
+  "bg": "#040405"
+}
